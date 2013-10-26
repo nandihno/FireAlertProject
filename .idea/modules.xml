@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FireAlert/FireAlert.iml" filepath="$PROJECT_DIR$/FireAlert/FireAlert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FireAlertProject.iml" filepath="$PROJECT_DIR$/FireAlertProject.iml" />
+    </modules>
+  </component>
+</project>
+

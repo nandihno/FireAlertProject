@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+
+    android:background="@drawable/red_gradient"
+    >
+
+
+    <Button
+        android:textColor="#f5f5f5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:id="@+id/refreshBtn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        style="@style/ImageButtonAppTheme"/>
+
+    <com.google.android.gms.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapViewJp"
+        android:layout_below="@+id/refreshBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/description_app"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:textColor="#f5f5f5"
+        android:layout_toLeftOf="@+id/refreshBtn"
+        style="@style/EditTextAppTheme"/>
+
+
+</RelativeLayout>

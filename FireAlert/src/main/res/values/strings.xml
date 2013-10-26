@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fire Alert</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="info">While care is taken to ensure accuracy, this app cannot guarantee the information contained in it is correct and recommends that users exercise their own skill and care with respect to its use.
+        Please contact your local ABC radio for further information
+    </string>
+    <string name="description_app">Taken from QLD Fire Rescue Service (QFRS) and NSW Rural Fire Service.</string>
+
+</resources>
