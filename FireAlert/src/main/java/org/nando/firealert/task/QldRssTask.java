@@ -149,7 +149,7 @@ public class QldRssTask extends AsyncTask<Object,Void,ArrayList<RssItem>> {
                     continue;
                 }
                 String name = parser.getName();
-               
+
                 if (name.equals("description")) {
                     String bigDescription = readDescription(parser);
                     String [] arr = bigDescription.split("<br />");

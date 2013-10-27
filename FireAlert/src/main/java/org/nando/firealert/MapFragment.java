@@ -70,7 +70,7 @@ public class MapFragment extends Fragment  implements GooglePlayServicesClient.C
         map = mapView.getMap();
         map.setMyLocationEnabled(true);
         map.setOnInfoWindowClickListener(this);
-        GeoUtils.loadBrisbaneArea(map,6);
+        GeoUtils.loadBrisbaneArea(map,4);
         button.setOnClickListener(this);
         presentInfo();
         return rootView;
@@ -126,7 +126,7 @@ public class MapFragment extends Fragment  implements GooglePlayServicesClient.C
                 markerMap.put(marker,item);
             }
             map.setInfoWindowAdapter(new MapsAlertsInfoAdapter(getActivity(),markerMap));
-            GeoUtils.loadBrisbaneArea(map,7);
+            GeoUtils.loadBrisbaneArea(map,4);
         }
 
 
