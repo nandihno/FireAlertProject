@@ -108,7 +108,7 @@ public class MapFragment extends Fragment  implements GooglePlayServicesClient.C
 
         if(!items.isEmpty()) {
             for(RssItem item:items) {
-                float colorVal = 0;
+                float colorVal = BitmapDescriptorFactory.HUE_MAGENTA;
                 if(item.alertLevel.equalsIgnoreCase("Alert Level: Advice.") || item.alertLevel.equalsIgnoreCase("Alert Level: Advice") ) {
                     colorVal = BitmapDescriptorFactory.HUE_AZURE;
                 }

@@ -45,7 +45,8 @@ public class MapsAlertsInfoAdapter implements GoogleMap.InfoWindowAdapter {
         pubDate.setText(item.pubDate);
         alertLevel.setText(item.alertLevel);
         currentStatus.setText(item.currentStatus);
-        details.setText(item.details);
+        String noHtmlDetails = item.details.replaceAll("\\<[^\\>]*\\>","");
+        details.setText(noHtmlDetails);
         return vi;
     }
 
